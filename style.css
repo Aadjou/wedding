@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+label {
+    display: block;
+}
+
+fieldset {
+    display: inline-block;
+    background: palegoldenrod;
+    padding: 0.3em;
+    margin: 0.3em;
+}
