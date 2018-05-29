@@ -13,11 +13,11 @@ function buildHTML(file) {
     const outputFilepath = path.join(parentDir, 'dist', outputFilename);
 
     const languageFile = JSON.parse(fs.readFileSync(filepath, 'utf8'));
-
     const map = getMap(languageFile);
+
     let parsedTemplate = htmlTemplate;
     for (let key in map) {
-        parsedTemplate.replace(key, map[key]);
+        parsedTemplate = parsedTemplate.replace(key, map[key]);
     }
 
     fs.writeFileSync(outputFilepath, parsedTemplate, { encoding: 'utf8' } )
@@ -32,6 +32,8 @@ function getMap(file) {
         "intro-date": file.intro.date,
         "intro-location": file.intro.location,
         "intro-guests": file.intro.guests,
+        "registration-title": file.registration.title,
+        "add-guest-button": file.registration.button
     };
 }
 

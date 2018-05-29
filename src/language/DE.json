@@ -1,7 +1,7 @@
 {
   "title": "Save the date",
   "date": "5th of August",
-  "location": "Schweiz, Region Zürich",
+  "location": "Switzerland, Zurich Area",
   "intro": {
     "txt": "To celebrate our union and the acquisition of a new Kalunder family member we are inviting to a come and go open wedding party. This means we have a location ready for the entire day and activities are planned throughout the day. We will do things outside, inside, have good food, wonderful music, a swim and maybe a pyjama party.",
     "guests": "The event is targeted at friends, family, buddies and pets of Noël and Madlaina Kalunder. Welcome is anyone who wants to celebrate and be happy with us - please sign up below.",
@@ -18,12 +18,14 @@
       "undecided": "deciding spontaneously",
       "accommodation": "I need accommodation"
     },
+    "button": "Add another guest",
     "name": "Name",
     "phone": "phone number",
     "email": "e-mail address",
     "contribution": {
       "title": "Food and Beverages",
       "description": "Contribution to the buffet",
+      "button": "Bring something else",
       "options": {
         "snack": "snack",
         "salad": "salad",

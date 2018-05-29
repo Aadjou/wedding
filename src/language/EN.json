@@ -18,12 +18,14 @@
       "undecided": "deciding spontaneously",
       "accommodation": "I need accommodation"
     },
+    "button": "Add another guest",
     "name": "Name",
     "phone": "phone number",
     "email": "e-mail address",
     "contribution": {
       "title": "Food and Beverages",
       "description": "Contribution to the buffet",
+      "button": "Bring something else",
       "options": {
         "snack": "snack",
         "salad": "salad",
