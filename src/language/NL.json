@@ -1,27 +1,36 @@
 {
-  "title": "save the date",
+  "title": "Save the date",
   "date": "5th of August",
   "location": "Switzerland, Zurich Area",
-  "description": {
-    "what": "To celebrate our union and the acquisition of a new Kalunder family member we are inviting to a come and go open wedding party. This means we have a location ready for the entire day and activities are planned throughout the day. We will do things outside, inside, have good food, wonderful music, a swim and maybe a pyjama party.",
-    "who": "The event is targeted at friends, family, buddies and pets of Noël and Madlaina Kalunder. Welcome is anyone who wants to celebrate and be happy with us - please sign up below.",
-    "where": "We will inform you the event location to you by e-mail or phone.",
-    "when": "The event will be really relaxed and without a fixed schedule. Feel free to pop in and out at your convenience."
+  "intro": {
+    "txt": "To celebrate our union and the acquisition of a new Kalunder family member we are inviting to a come and go open wedding party. This means we have a location ready for the entire day and activities are planned throughout the day. We will do things outside, inside, have good food, wonderful music, a swim and maybe a pyjama party.",
+    "guests": "The event is targeted at friends, family, buddies and pets of Noël and Madlaina Kalunder. Welcome is anyone who wants to celebrate and be happy with us - please sign up below.",
+    "location": "We will inform you the event location to you by e-mail or phone.",
+    "date": "The event will be really relaxed and without a fixed schedule. Feel free to pop in and out at your convenience."
   },
   "registration": {
     "title": "Registration",
-    "phone": "phone number",
-    "email": "e-mail address",
+    "description": "...",
     "rsvp": {
-      "description": "I want to register my attendance",
-      "name": "full name",
-      "options": ["definitely coming", "definitely not coming", "not sure / need more info", "deciding spontaneously"],
+      "yes": "definitely coming",
+      "no": "definitely not coming",
+      "maybe": "not sure / need more info",
+      "undecided": "deciding spontaneously",
       "accommodation": "I need accommodation"
     },
-    "food": {
+    "name": "Name",
+    "phone": "phone number",
+    "email": "e-mail address",
+    "contribution": {
       "title": "Food and Beverages",
       "description": "Contribution to the buffet",
-      "options": ["snack", "salad", "warm course", "desert", "beverage"],
+      "options": {
+        "snack": "snack",
+        "salad": "salad",
+        "main": "main course",
+        "desert": "desert",
+        "beverage": "beverage"
+      },
       "type": "what is it?",
       "quantity": "and how much of it?"
     },

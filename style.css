@@ -1,13 +1,31 @@
+:root {
+    --main-bg-col: #566a94;
+    --second-bg-col: #464c6c;
+    --third-bg-col: #343036;
+    --main-highlight-col: #cf598f;
+    --second-highlight-col: #9b438f;
+    --main-text-col: #cdb4ce;
+    --second-text-col: #b294b7;
+    --third-text-col: #84708f;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: var(--third-bg-col);
+    color: var(--main-text-col);
+}
+
 h1 {
     font-size: 3em;
+    color: var(--third-text-col);
 }
 
 h2 {
     font-size: 2em;
+    color: var(--second-text-col);
 }
 
 label {
@@ -16,7 +34,7 @@ label {
 
 fieldset {
     display: inline-block;
-    background: palegoldenrod;
     padding: 0.3em;
     margin: 0.3em;
+    background-color: var(--second-bg-col);
 }
