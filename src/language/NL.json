@@ -35,16 +35,11 @@
       "quantity": "and how much of it?"
     },
     "gifts": {
-      "title": "Gifts",
-      "description": "Please don't break your head about bringing us a gift. While we really appreciate the thought - what we most enjoy to receive is your presence at our event. The most we love personalised, durable gifts that will make us think about you and our friendship.",
-      "button": "I acknowledge the gifting policy."
-    },
-    "activities": {
-      "title": "Activities and Toasts",
-      "description": "We are aware that sometimes people want to take action, have a toast or do some other crazy things. You don't have to organize anything - but if you really want to a fellow wedding assistant will get in touch with you for the organisation in secrecy.",
-      "button": "I would like to plan an activity / toast / decoration or have a special secret idea"
+      "title": "Gifts and Activities",
+      "description": "Please don't break your head about bringing us a gift. While we really appreciate the thought - what we most enjoy to receive is your presence at our event. The most we love personalised, durable gifts that will make us think about you and our friendship. We are aware that sometimes people want to take action, have a toast or do some other crazy things. You don't have to organize anything - but if you really want to a fellow wedding assistant will get in touch with you for the organisation in secrecy.",
+      "checkbox": "I acknowledge the gifting policy.",
+      "activity": "I would like to plan an activity / toast / decoration or have a special secret idea"
     },
     "message": "..."
-
   }
 }

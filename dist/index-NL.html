@@ -9,62 +9,100 @@
 </head>
 <body>
     <header>
-        image
+        <img src="madlaina.jpg" alt="Madlaina Pixel Portrait">
     </header>
 
     <main>
-        <h1>Save the date</h1>
-        <h2>5 August 2018</h2>
-        <p id="intro">To celebrate our union and the acquisition of a new Kalunder family member we are inviting to a come and go open wedding party. This means we have a location ready for the entire day and activities are planned throughout the day. We will do things outside, inside, have good food, wonderful music, a swim and maybe a pyjama party.</p>
+        <h1>main-title</h1>
+        <h2>main-date</h2>
+        <h2>main-location</h2>
 
-        <h2>Where?</h2>
-        <p id="intro-location">The event will take place in Switzerland, nearby Zurich.
-        We will inform you the event location to you by e-mail or phone.
-        The day really relaxed and without a fixed schedule. Feel free to pop in and out.</p>
-
-        <h2>Who?</h2>
-        <p id="intro-guests">The event is targeted at friends, family, buddies and pets of Noël and Madlaina Kalunder.
-            Welcome is anyone who wants to celebrate and be happy with us - please sign up below.</p>
+        <p>intro-txt</p>
+        <p>intro-date</p>
+        <p>intro-location</p>
+        <p>intro-guests</p>
     </main>
 
-    <section>
+    <section id="rsegistration">
         <!-- Make person block appendable-->
         <template id="person">
             <fieldset>
                 <label>
-                    Name
-                    <input id="name">
+                    p-name
+                    <input id="name"><!-- ID IN TEMPLATE? -->
                 </label>
                 <label>
-                    RSVP
+                    p-rsvp
                     <select id="rsvp">
-                        <option value="yes">bb</option>
-                        <option value="no">aa</option>
-                        <option value="maybe">xy</option>
-                        <option value="spontaneously">xx</option>
+                        <option value="yes">rsvp-yes</option>
+                        <option value="no">rsvp-no</option>
+                        <option value="maybe">rsvp-maybe</option>
+                        <option value="undecided">rsvp-undecided</option>
                     </select>
                 </label>
                 <label>
                     <input id="accommodation" type="checkbox">
-                    I need accommodation
+                    rsvp-accommodation
                 </label>
             </fieldset>
         </template>
 
+        <template id="contribution">
+            <fieldset>
+                <label>
+                    cb-type
+                    <select id="contribution-type">
+                        <option value="snack">cb-snack</option>
+                        <option value="salad">cb-salad</option>
+                        <option value="main">cb-main</option>
+                        <option value="desert">cb-desert</option>
+                        <option value="beverage">cb-beverage</option>
+                    </select>
+                </label>
+                <label>
+                    cb-description
+                    <input>
+                </label>
+                <label>
+                    cb-quantity
+                    <input type="number">
+                </label>
+            </fieldset>
+        </template>
+
+        <h2>registration-title</h2>
+        <p>registration-description</p>
         <div id="guests"></div>
         <button id="add-guest">Someone else is coming</button>
 
-        <!--div id="details">
-            <input> email
-            <input> phone number
-        </div>
+        <h2>contribution-title</h2>
+        <p>contribution-description</p>
+        <div id="contributions"></div>
+        <button id="add-contribution">Bring more</button>
 
-        <select id="contribution">
-            <option value="food">food</option>
-            <option value="beverage">drinks</option>
-        </select>
+        <fieldset>
+            <label>
+                registration-email
+                <input id="email">
+            </label>
+            <label>
+                registration-phone
+                <input id="phone">
+            </label>
+        </fieldset>
 
-        <button>We want to bring more!</button-->
+        <h2>gifts-title</h2>
+        <p>gifts-description</p>
+        <fieldset>
+            <label>
+                <input type="checkbox">
+                gifts-checkbox
+            </label>
+            <label>
+                <input type="checkbox">
+                gifts-activity
+            </label>
+        </fieldset>
     </section>
 
     <script type="text/javascript" src="main.js"></script>
