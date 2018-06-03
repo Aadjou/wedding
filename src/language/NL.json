@@ -12,6 +12,7 @@
     "title": "Registration",
     "description": "...",
     "rsvp": {
+      "description": "I am ...",
       "yes": "definitely coming",
       "no": "definitely not coming",
       "maybe": "not sure / need more info",
