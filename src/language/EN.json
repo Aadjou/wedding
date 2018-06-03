@@ -1,48 +1,35 @@
 {
-  "title": "Save the date",
-  "date": "5th of August",
-  "location": "Switzerland, Zurich Area",
-  "intro": {
-    "txt": "To celebrate our union and the acquisition of a new Kalunder family member we are inviting to a come and go open wedding party. This means we have a location ready for the entire day and activities are planned throughout the day. We will do things outside, inside, have good food, wonderful music, a swim and maybe a pyjama party.",
-    "guests": "The event is targeted at friends, family, buddies and pets of Noël and Madlaina Kalunder. Welcome is anyone who wants to celebrate and be happy with us - please sign up below.",
-    "location": "We will inform you the event location to you by e-mail or phone.",
-    "date": "The event will be really relaxed and without a fixed schedule. Feel free to pop in and out at your convenience."
-  },
-  "registration": {
-    "title": "Registration",
-    "description": "...",
-    "rsvp": {
-      "description": "I am ...",
-      "yes": "definitely coming",
-      "no": "definitely not coming",
-      "maybe": "not sure / need more info",
-      "undecided": "deciding spontaneously",
-      "accommodation": "I need accommodation"
-    },
-    "button": "Add another guest",
-    "name": "Name",
-    "phone": "phone number",
-    "email": "e-mail address",
-    "contribution": {
-      "title": "Food and Beverages",
-      "description": "Contribution to the buffet",
-      "button": "Bring something else",
-      "options": {
-        "snack": "snack",
-        "salad": "salad",
-        "main": "main course",
-        "desert": "desert",
-        "beverage": "beverage"
-      },
-      "type": "what is it?",
-      "quantity": "and how much of it?"
-    },
-    "gifts": {
-      "title": "Gifts and Activities",
-      "description": "Please don't break your head about bringing us a gift. While we really appreciate the thought - what we most enjoy to receive is your presence at our event. The most we love personalised, durable gifts that will make us think about you and our friendship. We are aware that sometimes people want to take action, have a toast or do some other crazy things. You don't have to organize anything - but if you really want to a fellow wedding assistant will get in touch with you for the organisation in secrecy.",
-      "checkbox": "I acknowledge the gifting policy.",
-      "activity": "I would like to plan an activity / toast / decoration or have a special secret idea"
-    },
-    "message": "..."
-  }
+  "main-title": "Save the date",
+  "main-date": "5th of August",
+  "main-location": "Switzerland, Zurich Area",
+  "intro-txt": "To celebrate our union and the acquisition of a new Kalunder family member we are inviting to a come and go open wedding party. This means we have a location ready for the entire day and activities are planned throughout the day. We will do things outside, inside, have good food, wonderful music, a swim and maybe a pyjama party.",
+  "intro-guests": "The event is targeted at friends, family, buddies and pets of Noël and Madlaina Kalunder. Welcome is anyone who wants to celebrate and be happy with us - please sign up below.",
+  "intro-location": "We will inform you the event location to you by e-mail or phone.",
+  "intro-date": "The event will be really relaxed and without a fixed schedule. Feel free to pop in and out at your convenience.",
+  "reg-title": "Registration",
+  "reg-description": "...",
+  "reg-button": "Add another guest",
+  "reg-name": "Name",
+  "rsvp-email": "e-mail address",
+  "rsvp-description": "I am ...",
+  "rsvp-yes": "definitely coming",
+  "rsvp-no": "definitely not coming",
+  "rsvp-maybe": "not sure / need more info",
+  "rsvp-undecided": "deciding spontaneously",
+  "rsvp-accommodation": "I need accommodation",
+  "contrib-title": "Food and Beverages",
+  "contrib-description": "Contribution to the buffet",
+  "contrib-type": "what is it?",
+  "contrib-quantity": "and how much of it?",
+  "contrib-button": "Bring something else",
+  "contrib-option-snack": "snack",
+  "contrib-option-salad": "salad",
+  "contrib-option-main": "main course",
+  "contrib-option-dessert": "dessert",
+  "contrib-option-beverage": "beverage",
+  "gift-title": "Gifts and Activities",
+  "gift-description": "Please don't break your head about bringing us a gift. While we really appreciate the thought - what we most enjoy to receive is your presence at our event. The most we love personalised, durable gifts that will make us think about you and our friendship. We are aware that sometimes people want to take action, have a toast or do some other crazy things. You don't have to organize anything - but if you really want to a fellow wedding assistant will get in touch with you for the organisation in secrecy.",
+  "gift-checkbox": "I acknowledge the gifting policy.",
+  "gift-activity": "I would like to plan an activity / toast / decoration or have a special secret idea",
+  "reg-submit":"Submit registration"
 }

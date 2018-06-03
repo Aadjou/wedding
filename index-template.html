@@ -28,17 +28,21 @@
         <template id="person">
             <fieldset>
                 <label>
-                    p-name
+                    reg-name
                     <input>
                 </label>
                 <label>
-                    p-rsvp
+                    rsvp-description
                     <select>
                         <option value="yes">rsvp-yes</option>
                         <option value="no">rsvp-no</option>
                         <option value="maybe">rsvp-maybe</option>
                         <option value="undecided">rsvp-undecided</option>
                     </select>
+                </label>
+                <label>
+                    rsvp-email
+                    <input id="email">
                 </label>
                 <label>
                     <input type="checkbox">
@@ -50,60 +54,50 @@
         <template id="contribution">
             <fieldset>
                 <label>
-                    cb-type
-                    <select id="contribution-type">
-                        <option value="snack">cb-snack</option>
-                        <option value="salad">cb-salad</option>
-                        <option value="main">cb-main</option>
-                        <option value="desert">cb-desert</option>
-                        <option value="beverage">cb-beverage</option>
+                    blabal
+                    <select>
+                        <option value="snack">contrib-option-snack</option>
+                        <option value="salad">contrib-option-salad</option>
+                        <option value="main">contrib-option-main</option>
+                        <option value="desert">contrib-option-dessert</option>
+                        <option value="beverage">contrib-option-beverage</option>
                     </select>
                 </label>
                 <label>
-                    cb-description
+                    contrib-type
                     <input>
                 </label>
                 <label>
-                    cb-quantity
+                    contrib-quantity
                     <input type="number">
                 </label>
             </fieldset>
         </template>
 
-        <h2>registration-title</h2>
-        <p>registration-description</p>
-
-        <fieldset>
-            <label>
-                registration-email
-                <input id="email">
-            </label>
-            <label>
-                registration-phone
-                <input id="phone">
-            </label>
-        </fieldset>
+        <h2>reg-title</h2>
+        <p>reg-description</p>
 
         <div id="guests"></div>
-        <button id="add-guest">add-guest-button</button>
+        <button id="add-guest">reg-button</button>
 
-        <h2>contribution-title</h2>
-        <p>contribution-description</p>
+        <h2>contrib-title</h2>
+        <p>contrib-description</p>
         <div id="contributions"></div>
-            <button id="add-contribution">Bring more</button>
+        <button id="add-contribution">contrib-button</button>
 
-        <h2>gifts-title</h2>
-        <p>gifts-description</p>
+        <h2>gift-title</h2>
+        <p>gift-description</p>
         <fieldset>
             <label>
                 <input type="checkbox">
-                gifts-checkbox
+                gift-checkbox
             </label>
             <label>
                 <input type="checkbox">
-                gifts-activity
+                gift-activity
             </label>
         </fieldset>
+        <button id="submit">reg-submit</button>
     </section>
 
     <script type="text/javascript" src="main.js"></script>
